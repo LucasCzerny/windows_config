@@ -9,19 +9,19 @@
     "keybindings": 
     [
         {
-            "id": "Terminal.CopyToClipboard",
+            "id": null,
             "keys": "ctrl+c"
         },
         {
-            "id": "Terminal.PasteFromClipboard",
+            "id": null,
             "keys": "ctrl+v"
         },
         {
-            "id": "Terminal.FindText",
+            "id": null,
             "keys": "ctrl+shift+f"
         },
         {
-            "id": "Terminal.DuplicatePaneAuto",
+            "id": null,
             "keys": "alt+shift+d"
         }
     ],
@@ -45,7 +45,7 @@
             },
             "opacity": 100,
             "padding": "10",
-            "startingDirectory": "C:\\Users\\lucas\\Documents\\Code",
+            "startingDirectory": "C:\\Users\\lucas\\Documents\\Projects\\Code",
             "useAcrylic": true
         },
         "list": 
@@ -60,29 +60,30 @@
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
+                "hidden": true,
                 "name": "Command Prompt"
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": false,
+                "hidden": true,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
             },
             {
+                "experimental.rightClickContextMenu": true,
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
                 "name": "Git Bash",
                 "source": "Git"
             },
             {
-                "guid": "{35f1b95a-e90f-57ba-8ba4-f92cc9ab7232}",
+                "guid": "{b3707991-ab0c-5027-8d7b-6b86528a1bb0}",
                 "hidden": false,
                 "name": "Developer Command Prompt for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
             },
             {
-                "guid": "{3a0bd90f-9a21-570d-ade2-54f155fe00e7}",
+                "guid": "{e7f85457-8650-54c3-a181-c3d0e2cb2e2b}",
                 "hidden": false,
                 "name": "Developer PowerShell for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
@@ -138,7 +139,7 @@
             "yellow": "#C19C00"
         }
     ],
-    "startupActions": "new-tab -p 'PowerShell' ; new-tab -p 'PowerShell' ; new-tab -p 'PowerShell' ; new-tab -p 'PowerShell' ; focus-tab -t 0",
+    "startupActions": "new-tab ; new-tab ; new-tab -p \"Git Bash\" ; new-tab ; focus-tab -t 0",
     "themes": [],
     "useAcrylicInTabRow": false
 }

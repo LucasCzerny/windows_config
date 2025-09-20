@@ -5,6 +5,7 @@ shared/
 assets/
 models/
 build/
+*.spv
 
 # web dev
 static/
